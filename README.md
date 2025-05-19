@@ -69,7 +69,7 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
   <br><br>
 
   <!-- AI / ML -->
-  <img src="https://skillicons.dev/icons?i=pytorch,numpy" />
+  <img src="https://skillicons.dev/icons?i=pytorch,numpy,ollama,colab" />
 </p>
 </p>
 </p>
