@@ -5,13 +5,13 @@
 
 <p align="center">
   <a href="https://bhargavi-r-21.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
+    https://bhargavi-r-21.vercel.app/
   </a>
   <a href="https://www.linkedin.com/in/bhargavirengarajan21" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+   https://www.linkedin.com/in/bhargavirengarajan21
   </a>
   <a href="mailto:breng002@ucr.edu">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    breng002@ucr.edu
   </a>
 </p>
 
