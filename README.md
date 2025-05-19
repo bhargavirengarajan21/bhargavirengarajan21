@@ -1,7 +1,7 @@
 <!-- GitHub Profile README - HTML embedded version for Bhargavi Rengarajan -->
 
-<h1 align="center">Hey, I'm <span style="color:#ff66cc;">Bhargavi Rengarajan</span> 🌸</h1>
-<h3 align="center">Engineer @ Heart | Researcher @ Mind | Creator Always 🚀</h3>
+<h1 align="center">Hey, I'm <span style="color:#ff66cc;">Bhargavi Rengarajan</span></h1>
+<h3 align="center">Engineer @ Heart | Researcher @ Mind | Creator Always </h3>
 
 <p align="center">
   <a href="https://bhargavi-r-21.vercel.app/" target="_blank">
