@@ -28,7 +28,7 @@
 
 <pre>
 const bhargavi = {
-  currentRole: "Software Engineer in Mr. Cooper",
+  currentRole: "Software Engineer @ Mr. Cooper",
   previous: "Master's Student @ UCR | Senior Software Engineer @ Mr. Cooper (FinTech)",
   interests: ["AI", "Computer Vision", "Web3", "Data Viz", "System Design"],
   funFact: "I once built a music player controlled entirely by hand gestures 🎵🖐️",
