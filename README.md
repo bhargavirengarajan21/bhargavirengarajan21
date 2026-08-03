@@ -1,36 +1,4 @@
 
-Claude finished the response
-Before the merge — the summary has a problem that has to go regardless:
-
-"I joined as Software Engineer role at Rocket after graduating, Hence the role is Software Engineeer."
-
-First person, a typo ("Engineeer"), a grammar break ("as Software Engineer role"), and it defends your title before anyone questions it. On a document where every other line is polished, this is the one a reader stops on. Cut it entirely.
-
-Here are your 9 Rocket bullets merged to 6:
-
-1. Built a callback listener end-to-end by shipping a cloud-native Kafka microservice with 3 retries at 80s, dead-letter routing, Docker, and Azure Pipelines CI, recovering 100% of previously lost events.
-
-2. Standardized inconsistent error formats and payment audit data across backend Spring Boot REST services by applying OpenAPI field-length limits, a global exception handler at the contract boundary, and a robust SQL audit schema, cutting debugging 35% and data corruption 50%.
-(merges error handling + SQL schema)
-
-3. Automated releases by scripting TDD suites, linting, and snapshot generation in GitHub Actions CI/CD, and owned end-to-end delivery of a stalled full-stack Next.js and Node.js release off GCP config, reducing manual effort 40% and doubling sprint release speed.
-(merges CI/CD + full-stack delivery)
-
-4. Optimized redundant vendor API calls by caching a React dashboard server-side in Redis with a 24-hour TTL, cutting 10,000 calls a day to 1 per user.
-
-5. Participated in the on-call rotation for production support, triaging and routing incidents and configuring New Relic alerts on scheduled jobs, cutting alert noise 83% and troubleshooting from 15 minutes to 2 minutes.
-(merges on-call + incident triage — same domain, so this one merges cleanly)
-
-6. Served as primary contact across 4 cross-functional teams and 20+ engineers in 3 time zones, driving communication that cut handoff delays 50%.
-
-Three fixes folded in:
-
-"10,000/min" → 10,000 a day. Your matrix says per day; per minute would be 14.4M daily calls, which isn't plausible for a vendor API.
-Kafka bullet had no result — restored "recovering 100% of previously lost events."
-"improving 2x sprint release speed" → "doubling sprint release speed."
-One caution on #3: CI/CD automation and a stalled release are genuinely different work, so that merge is the weakest of the three. If a reader asks about it, they're two stories. #2 and #5 merge more naturally since each pair sits in one domain.
-
-
 <!-- GitHub Profile README - HTML embedded version for Bhargavi Rengarajan --> <h1 align="center">Hey, I'm <span style="color:#ff66cc;">Bhargavi Rengarajan</span></h1> <h3 align="center">Engineer @ Heart | Researcher @ Mind | Creator Always </h3> <p align="center"> <a href="https://bhargavi-r-21
 
 pasted
