@@ -1,199 +1,164 @@
-<!-- ===================== HEADER ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Bhargavi%20Rengarajan&fontSize=42&fontColor=ffffff&fontAlignY=32&desc=Full-Stack%20%C2%B7%20AI%20Tooling%20%C2%B7%20Distributed%20Systems&descAlignY=52&descSize=16&animation=fadeIn" width="100%" alt="Bhargavi Rengarajan" />
-</p>
-
 <p align="center">
   <a href="https://bhargavi-r-21.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=520&lines=Software+Engineer+%40+Rocket+Mortgage;5+years+shipping+distributed+FinTech+services;I+build+local-first+AI+developer+tools;Your+code+never+leaves+your+machine." alt="What I do" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=F5A623&vCenter=true&width=620&height=40&lines=%24+whoami;bhargavi+rengarajan+%E2%80%94+software+engineer+%40+rocket+mortgage;%24+cat+~%2F.focus;distributed+fintech+services+%C2%B7+local-first+AI+tooling;%24+why;because+your+source+code+shouldn't+need+an+API+key." alt="terminal intro" />
   </a>
 </p>
 
-<p align="center">
-  <a href="https://bhargavi-r-21.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/bhargavi-r21"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://huggingface.co/Bhargavi5q1"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
-  <a href="https://www.npmjs.com/~bhargavirengarajan21"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
-  <a href="mailto:bhargaviwork21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=bhargavirengarajan21&style=for-the-badge&color=6D28D9&label=PROFILE+VIEWS" alt="Profile views" />
+```console
+$ whoami --verbose
+
+  bhargavi rengarajan
+  software engineer @ rocket mortgage · chicago · 5 yrs fintech
+
+  backend    java · spring boot · kafka · postgres · redis
+  frontend   react · next.js · typescript
+  platform   docker · kubernetes · azure · gcp · aws
+  after 6pm  ollama · unsloth · mcp — models that run on the laptop
+```
+
+<p align="left">
+  <a href="https://bhargavi-r-21.vercel.app/"><img src="https://img.shields.io/badge/portfolio-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/bhargavi-r21"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://huggingface.co/Bhargavi5q1"><img src="https://img.shields.io/badge/hugging%20face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+  <a href="https://www.npmjs.com/package/git-commit-at"><img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm" /></a>
+  <a href="mailto:bhargaviwork21@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
----
+### `$ git log --author=bhargavi --oneline`
 
-<!-- ===================== FEATURED ===================== -->
-<h2 align="center">Featured Work</h2>
+<pre>
+a7f3d21  <a href="https://huggingface.co/Bhargavi5q1/git-commit-messages">feat(ai)</a>:      fine-tune qwen2.5-coder-1.5b, quantize to GGUF, ship to hugging face
+9c1e40b  <a href="https://www.npmjs.com/package/git-commit-at">feat(cli)</a>:     publish git-commit-at to npm — local inference, zero network calls
+4b8ca97  <a href="https://github.com/bhargavirengarajan21/mcp-observability-agent">feat(mcp)</a>:     prototype observability agent — plain-language incident triage
+e2d7f66  chore(role):   join rocket mortgage, remote from chicago
+1f09ab3  feat(edu):     m.s. computer engineering @ uc riverside — gpu computer vision
+6ad4c12  perf(team):    lead delivery and mentor engineers @ mr. cooper
+b3e8907  feat(paper):   ieee publication — ml-based spatial hazard assessment
+</pre>
+
+### `$ ls ~/work/featured`
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>git-commit-at</h3>
+    <td width="34%" valign="top">
+      <h4>git-commit-at</h4>
       <p>
         <a href="https://www.npmjs.com/package/git-commit-at"><img src="https://img.shields.io/npm/dt/git-commit-at?style=flat-square&logo=npm&logoColor=white&label=downloads&color=CB3837" alt="npm downloads" /></a>
-        <a href="https://www.npmjs.com/package/git-commit-at"><img src="https://img.shields.io/npm/v/git-commit-at?style=flat-square&color=6D28D9&label=version" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/git-commit-at"><img src="https://img.shields.io/npm/v/git-commit-at?style=flat-square&color=F5A623&label=v" alt="npm version" /></a>
       </p>
-      <p>A Git subcommand that writes your conventional commit messages on-device through Ollama. No API key, no network call, no code leaving the machine.</p>
-      <p><em>Node.js · Ollama · Docker</em></p>
-      <p>
-        <a href="https://www.npmjs.com/package/git-commit-at"><b>npm</b></a> ·
-        <a href="https://github.com/bhargavirengarajan21/git-commit-at"><b>source</b></a>
-      </p>
+      <p>A git subcommand that writes your conventional commit messages on-device through Ollama. No API key, no network call, no code leaving the machine.</p>
+      <p><code>node · ollama · docker</code></p>
+      <p><a href="https://www.npmjs.com/package/git-commit-at">npm</a> · <a href="https://github.com/bhargavirengarajan21/git-commit-at">source</a></p>
     </td>
-    <td width="33%" valign="top">
-      <h3>Fine-Tuned Commit Model</h3>
+    <td width="34%" valign="top">
+      <h4>fine-tuned commit model</h4>
       <p>
         <a href="https://huggingface.co/Bhargavi5q1/git-commit-messages"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBhargavi5q1%2Fgit-commit-messages&query=%24.downloads&style=flat-square&logo=huggingface&logoColor=black&label=downloads&color=FFD21E" alt="Hugging Face downloads" /></a>
-        <img src="https://img.shields.io/badge/GGUF-Q4__K__M-6D28D9?style=flat-square" alt="GGUF Q4_K_M" />
+        <img src="https://img.shields.io/badge/GGUF-Q4__K__M-555555?style=flat-square" alt="GGUF Q4_K_M" />
       </p>
-      <p>qwen2.5-coder-1.5b fine-tuned with Unsloth for conventional commits, quantized to GGUF and packaged with an Ollama Modelfile so it runs on a laptop.</p>
-      <p><em>Unsloth · qwen2.5-coder · GGUF</em></p>
-      <p><a href="https://huggingface.co/Bhargavi5q1/git-commit-messages"><b>Hugging Face</b></a></p>
+      <p>qwen2.5-coder-1.5b fine-tuned with Unsloth, quantized and packaged with an Ollama Modelfile so it runs on a laptop with no GPU.</p>
+      <p><code>unsloth · qwen2.5-coder · gguf</code></p>
+      <p><a href="https://huggingface.co/Bhargavi5q1/git-commit-messages">hugging face</a></p>
     </td>
-    <td width="33%" valign="top">
-      <h3>MCP Observability Agent</h3>
-      <p><img src="https://img.shields.io/badge/status-prototype-64748B?style=flat-square" alt="Prototype" /></p>
-      <p>An MCP server that hands production telemetry to Claude, so incident triage becomes a plain-language question instead of hand-written NRQL.</p>
-      <p><em>Express · Next.js · TypeScript · New Relic</em></p>
-      <p><a href="https://github.com/bhargavirengarajan21/mcp-observability-agent"><b>source</b></a></p>
+    <td width="32%" valign="top">
+      <h4>mcp observability agent</h4>
+      <p><img src="https://img.shields.io/badge/status-prototype-555555?style=flat-square" alt="prototype" /></p>
+      <p>An MCP server that hands production telemetry to Claude, so incident triage is a plain-language question instead of hand-written NRQL.</p>
+      <p><code>express · next.js · typescript · new relic</code></p>
+      <p><a href="https://github.com/bhargavirengarajan21/mcp-observability-agent">source</a></p>
     </td>
   </tr>
 </table>
 
-<h3 align="center">Try the CLI in 30 seconds</h3>
+### `$ git commit-at --demo`
 
-```bash
-npm install -g git-commit-at
-ollama pull hf.co/Bhargavi5q1/git-commit-messages
-git commit-at          # stages diff → local model → conventional commit message
+```console
+$ npm install -g git-commit-at
+$ ollama pull hf.co/Bhargavi5q1/git-commit-messages
+
+$ git add src/auth/session.ts
+$ git commit-at
+
+  reading staged diff ......... 1 file, +42 −7
+  running model locally ....... qwen2.5-coder-1.5b (Q4_K_M)
+  network requests ............ 0
+
+  feat(auth): expire idle sessions after 30 minutes
+  [y] accept  [e] edit  [r] regenerate
 ```
 
----
+### `$ cat package.json`
 
-<!-- ===================== ABOUT ===================== -->
-<h2 align="center">About Me</h2>
-
-```javascript
-const bhargavi = {
-  currentRole: "Software Engineer @ Rocket Mortgage",
-  previous:    "M.S. Computer Engineering @ UC Riverside | Software Engineer II @ Mr. Cooper",
-  focus:       ["Distributed Systems", "AI Tooling", "Full-Stack", "Developer Experience"],
-  funFact:     "I once built a music player controlled entirely by hand gestures",
-};
+```jsonc
+{
+  "name": "bhargavi",
+  "role": "software engineer @ rocket mortgage",
+  "dependencies": {
+    "java": "^17",            "spring-boot": "^3.x",
+    "typescript": "^5",       "react": "^18",
+    "next": "^14",            "node": "^20",
+    "kafka": "*",             "redis": "*",
+    "postgres": "*",          "mongodb": "*",
+    "kubernetes": "*",        "docker": "*"
+  },
+  "devDependencies": {
+    "ollama": "*",            "unsloth": "*",
+    "mcp": "*",               "pyspark": "*"
+  },
+  "scripts": {
+    "work":  "ship services end to end — contract, ci/cd, observability, on-call",
+    "learn": "rag · agent tooling · quantization",
+    "ask":   "open https://bhargavi-r-21.vercel.app  # gemini assistant, ask it anything"
+  }
+}
 ```
 
-Five years building distributed cloud services in FinTech. I've led a small team, mentored engineers, and shipped services end to end — API contract through CI/CD, observability, and on-call. Outside of work I build local-first AI developer tools, because the honest answer to *"how do we use LLMs without shipping our source code somewhere else"* is usually to run them on-device.
+### `$ ls projects/ --group-by=domain`
 
-> **Ask my portfolio instead of reading it.** My site runs a Gemini-powered assistant trained on my work — [put it to the test](https://bhargavi-r-21.vercel.app/).
-
----
-
-<!-- ===================== STACK ===================== -->
-<h2 align="center">Tools &amp; Technologies</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,ts,js,python,go,cpp&theme=dark" alt="Languages" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,html,css,sass,tailwind&theme=dark" alt="Frontend" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,kafka,flask&theme=dark" alt="Backend" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,mysql&theme=dark" alt="Data" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,gcp,aws,githubactions&theme=dark" alt="Cloud and DevOps" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=git,github,figma,vercel,postman,vscode&theme=dark" alt="Tools" />
-</p>
-
----
-
-<!-- ===================== PROJECTS ===================== -->
-<h2 align="center">Projects by Domain</h2>
-
-<details open>
-  <summary><b>AI &amp; Developer Tooling</b></summary>
+<details>
+  <summary><code>distributed-systems/</code></summary>
   <br>
   <ul>
-    <li><b>git-commit-at</b> — On-device commit message generation via Ollama. Hugging Face hackathon entry. <a href="https://www.npmjs.com/package/git-commit-at">npm</a></li>
-    <li><b>Fine-Tuned Commit Model</b> — qwen2.5-coder-1.5b fine-tuned with Unsloth, quantized to GGUF for local inference. <a href="https://huggingface.co/Bhargavi5q1/git-commit-messages">Hugging Face</a></li>
-    <li><b>MCP Observability Agent</b> — MCP server connecting Claude to production monitoring data. Prototype.</li>
+    <li><b>distributed cloud logging</b> — serverless, tamper-resistant logging in Golang on Kubernetes with real-time capture. <code>golang · k8s · blockchain</code></li>
   </ul>
 </details>
 
 <details>
-  <summary><b>Distributed Systems &amp; Cloud</b></summary>
+  <summary><code>data-and-ml/</code></summary>
   <br>
   <ul>
-    <li><b>Distributed Cloud Logging</b> — Serverless, tamper-resistant logging in Golang on Kubernetes with real-time log capture. <em>Golang · Kubernetes · Blockchain</em></li>
+    <li><b>air pollution prediction</b> — Flask service serving XGBoost PM10 forecasts. IEEE published. <code>python · flask · xgboost</code></li>
+    <li><b>us accident zone analysis</b> — geospatial analysis of large-scale accident data, PySpark on Hadoop, React front end. <code>pyspark · hadoop · react</code></li>
+    <li><b>electrostatic halftoning</b> — GPU-accelerated dithering and stippling with CuPy. <code>python · cupy</code></li>
   </ul>
 </details>
 
 <details>
-  <summary><b>Data &amp; Machine Learning</b></summary>
+  <summary><code>frontend/</code></summary>
   <br>
   <ul>
-    <li><b>Air Pollution Prediction</b> — Flask service serving XGBoost PM10 forecasts over REST. Research project, IEEE published. <em>Python · Flask · XGBoost</em></li>
-    <li><b>US Accident Zone Analysis</b> — Geospatial analysis of large-scale accident data with PySpark on Hadoop, surfaced through a React interface. <em>PySpark · Hadoop · React</em></li>
-    <li><b>Electrostatic Halftoning Renderer</b> — GPU-accelerated dithering and stippling with CuPy. <em>Python · CuPy · Colab</em></li>
+    <li><b>netflix-inspired portfolio</b> — Gemini-powered chat assistant, server-side key handling on Vercel. <a href="https://bhargavi-r-21.vercel.app/">live</a> · <code>react · typescript · gemini</code></li>
+    <li><b>music via hand gestures</b> — real-time gesture recognition for playback control. <a href="https://github.com/bhargavirengarajan21/music-playing-using-hand-gestures">source</a> · <code>python · opencv · mediapipe</code></li>
   </ul>
 </details>
 
-<details>
-  <summary><b>Frontend &amp; Full-Stack</b></summary>
-  <br>
-  <ul>
-    <li><b>Netflix-Inspired Portfolio</b> — Portfolio with a Gemini-powered chat assistant, server-side key handling on Vercel. <a href="https://bhargavi-r-21.vercel.app/">Live</a> · <em>React · TypeScript · Gemini</em></li>
-    <li><b>Music via Hand Gestures</b> — Real-time gesture recognition for music control. <a href="https://github.com/bhargavirengarajan21/music-playing-using-hand-gestures">GitHub</a> · <em>Python · OpenCV · MediaPipe</em></li>
-  </ul>
-</details>
+### `$ gh contributions --graph`
 
----
-
-<!-- ===================== STATS ===================== -->
-<h2 align="center">By the Numbers</h2>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhargavirengarajan21&bg_color=00000000&color=F5A623&line=F5A623&point=FFFFFF&area=true&area_color=F5A623&hide_border=true&custom_title=commits%20/%20last%2031%20days" width="100%" alt="contribution activity" />
+</p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=bhargavirengarajan21&show_icons=true&hide=contribs&count_private=true&hide_border=true&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9&bg_color=0D1117" />
-    <img src="https://github-readme-stats.vercel.app/api?username=bhargavirengarajan21&show_icons=true&hide=contribs&count_private=true&hide_border=true&title_color=6D28D9&icon_color=6D28D9" height="165" alt="GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=bhargavirengarajan21&show_icons=true&hide=contribs&count_private=true&hide_border=true&bg_color=00000000&title_color=F5A623&icon_color=F5A623&text_color=9198A1" />
+    <img src="https://github-readme-stats.vercel.app/api?username=bhargavirengarajan21&show_icons=true&hide=contribs&count_private=true&hide_border=true&bg_color=00000000&title_color=B36B00&icon_color=B36B00" height="150" alt="github stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=bhargavirengarajan21&hide_border=true&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&background=0D1117&stroke=A78BFA&sideLabels=C9D1D9&dates=8B949E" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=bhargavirengarajan21&hide_border=true&ring=6D28D9&fire=6D28D9&currStreakLabel=6D28D9" height="165" alt="Streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargavirengarajan21&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=F5A623&text_color=9198A1" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargavirengarajan21&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=B36B00" height="150" alt="top languages" />
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bhargavirengarajan21&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
-</p>
-
-<h3 align="center">Contribution Activity</h3>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhargavirengarajan21&bg_color=0D1117&color=A78BFA&line=6D28D9&point=FFFFFF&area=true&hide_border=true&custom_title=Commits%20over%20the%20last%2031%20days" width="98%" alt="Contribution activity graph" />
-</p>
-
-<h3 align="center">Contribution Snake</h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhargavirengarajan21/bhargavirengarajan21/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhargavirengarajan21/bhargavirengarajan21/output/snake.svg" />
-    <img src="https://raw.githubusercontent.com/bhargavirengarajan21/bhargavirengarajan21/output/snake.svg" width="98%" alt="Snake eating my contribution graph" />
-  </picture>
-</p>
-
----
-
-<!-- ===================== LEARNING ===================== -->
-<h2 align="center">Currently Exploring</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Retrieval--Augmented%20Generation-6D28D9?style=for-the-badge" alt="RAG" />
-  <img src="https://img.shields.io/badge/Model%20Context%20Protocol-A78BFA?style=for-the-badge" alt="MCP" />
-  <img src="https://img.shields.io/badge/Quantization%20%26%20On--Device%20Inference-4C1D95?style=for-the-badge" alt="Quantization" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20build%20something&fontSize=22&fontColor=ffffff&fontAlignY=75" width="100%" alt="Footer" />
-</p>
+```console
+$ echo "building things that run where you are" | mail bhargaviwork21@gmail.com
+```
