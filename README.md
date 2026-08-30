@@ -4,7 +4,7 @@
   </a>
 </p>
 
-```console
+```
 $ whoami --verbose
 
   bhargavi rengarajan
