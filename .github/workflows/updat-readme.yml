@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: Build recent work
-        run: node .github/scripts/update-readme.js
+        run: node .github/workflows/update-readme.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
