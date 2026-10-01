@@ -27,6 +27,7 @@ $ whoami --verbose
 ### `$ git log --author=bhargavi --oneline`
 
 <pre>
+<!-- RECENT:START --><!-- RECENT:END -->
 a7f3d21  <a href="https://huggingface.co/Bhargavi5q1/git-commit-messages">feat(ai)</a>:      fine-tune qwen2.5-coder-1.5b, quantize to GGUF, ship to hugging face
 9c1e40b  <a href="https://www.npmjs.com/package/git-commit-at">feat(cli)</a>:     publish git-commit-at to npm — local inference, zero network calls
 4b8ca97  <a href="https://github.com/bhargavirengarajan21/mcp-observability-agent">feat(mcp)</a>:     prototype observability agent — plain-language incident triage
