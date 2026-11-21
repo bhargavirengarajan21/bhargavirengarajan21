@@ -1,0 +1,30 @@
+{
+  "owner": "bhargavirengarajan21",
+  "steps": [
+    "fist",
+    "love-you",
+    "ok",
+    "open-hand",
+    "peace",
+    "stop",
+    "love-you",
+    "point",
+    "fist",
+    "peace",
+    "open-hand",
+    "thumbs-up",
+    null,
+    null,
+    null,
+    null
+  ],
+  "next": 12,
+  "history": [
+    {
+      "user": "bhargavirengarajan21",
+      "gesture": "thumbs-up",
+      "step": 12,
+      "at": "2026-11-20T21:30:00Z"
+    }
+  ]
+}

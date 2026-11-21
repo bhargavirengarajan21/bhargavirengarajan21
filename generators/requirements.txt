@@ -1,0 +1,4 @@
+numpy>=1.26
+PyYAML>=6.0
+# only for generators/intro/intro.py (run locally, needs ffmpeg):
+Pillow>=10.0

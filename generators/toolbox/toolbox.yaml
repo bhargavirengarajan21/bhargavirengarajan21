@@ -1,0 +1,24 @@
+# Edit this file and push: a workflow re-renders assets/toolbox/*.svg.
+# Each group becomes one row of chips. Keep it to tools I have shipped with.
+groups:
+  - name: AI & LLM
+    icon: "🤖"
+    items: [Claude SDK, MCP, RAG, LangGraph, Ollama, Vector DBs, LLM evals, Fine-tuning (Unsloth), Hugging Face, Vertex AI]
+  - name: Backend
+    icon: "⚙️"
+    items: [Java, Spring Boot, WebFlux, Node.js, Express, FastAPI, Kafka, REST, GraphQL, Temporal]
+  - name: Frontend
+    icon: "🎨"
+    items: [React, Next.js, TypeScript, Redux, Tailwind, SCSS, Storybook, Accessibility (WCAG)]
+  - name: Data
+    icon: "🗄️"
+    items: [PostgreSQL, MongoDB, Redis, MySQL, DocumentDB, Spring Data JPA]
+  - name: Cloud & DevOps
+    icon: "☁️"
+    items: [Azure, AWS, GCP, Docker, Kubernetes, Helm, Terraform, GitHub Actions, Azure Pipelines]
+  - name: Observability & Testing
+    icon: "🔭"
+    items: [New Relic, Splunk, Playwright, Jest, Cypress, JUnit]
+  - name: ML & Vision
+    icon: "🧠"
+    items: [Python, PyTorch, OpenCV, MediaPipe, scikit-learn, XGBoost]
