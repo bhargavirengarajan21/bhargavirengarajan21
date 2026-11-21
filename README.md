@@ -135,7 +135,7 @@ spire and twin antennas. It rebuilds every night.
 
 <p align="center">
 <!-- SKYLINE:CREDITS:START -->
-<strong>250 contributions · 2018–2026</strong><br><sub>one tower per month · built from my GitHub history · rebuilt nightly</sub>
+<strong>256 contributions · 2018–2026</strong><br><sub>one tower per month · built from my GitHub history · rebuilt nightly</sub>
 <!-- SKYLINE:CREDITS:END -->
 </p>
 
