@@ -1,0 +1,25 @@
+# "What should I build next?" Edit the options and push; the chart re-renders.
+# Keys must be lowercase-with-dashes; visitors vote with an issue titled "vote: <key>".
+# Keep blurbs under ~46 characters so they fit the chart.
+question: What should I build next?
+options:
+  - key: oncall-copilot
+    emoji: "🚨"
+    label: Open-source on-call copilot
+    blurb: triages alerts and writes the incident report
+  - key: mortgage-decoder
+    emoji: "🏠"
+    label: Mortgage decoder
+    blurb: explains every fee in a loan estimate
+  - key: cta-ghost-tracker
+    emoji: "🚇"
+    label: CTA ghost-train tracker
+    blurb: which Chicago trains are really coming
+  - key: pr-agent
+    emoji: "🔍"
+    label: PR agent that runs your code
+    blurb: runs the tests and explains what broke
+  - key: mock-interviewer
+    emoji: "🎙️"
+    label: Voice mock interviewer
+    blurb: system design practice, scored on rubrics
