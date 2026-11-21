@@ -1,11 +1,12 @@
 """Cinematic intro video for the README: original score + audio-reactive titles.
 
-    python generators/intro/intro.py            -> assets/intro/intro.mp4 + poster
+    python generators/intro/intro.py            -> docs/media/intro.mp4 + poster
     python generators/intro/intro.py --preview  -> a few still frames in /tmp
 
-GitHub READMEs cannot play audio, but they do play uploaded videos inline.
-Drag assets/intro/intro.mp4 into the README editor on github.com once; GitHub
-hosts it and inserts a player link. Needs ffmpeg.
+GitHub's file viewer can't play an 8 MB video, so the MP4 lives in docs/media
+and plays on the GitHub Pages player (docs/index.html). To also play it inline
+in the README, drag docs/media/intro.mp4 into the README editor on github.com.
+Needs ffmpeg.
 """
 from __future__ import annotations
 
@@ -25,6 +26,7 @@ import music  # noqa: E402
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 OUT = ROOT / "assets" / "intro"
+MEDIA = ROOT / "docs" / "media"
 FONTS = HERE / "fonts"
 
 W, H, FPS = 1280, 720, 30
@@ -172,7 +174,9 @@ def make_poster(frame: Image.Image) -> None:
     d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(255, 102, 204, 255))
     d.polygon([(cx - 9, cy - 15), (cx - 9, cy + 15), (cx + 16, cy)], fill=(255, 255, 255, 255))
     d.text((x0 + 2 * r + gap, cy - 14), txt, font=f, fill=(255, 255, 255, 240))
-    Image.alpha_composite(im, ov).convert("RGB").save(OUT / "poster.jpg", quality=86, optimize=True)
+    poster = Image.alpha_composite(im, ov).convert("RGB")
+    poster.save(OUT / "poster.jpg", quality=86, optimize=True)
+    frame.convert("RGB").save(MEDIA / "poster.jpg", quality=86, optimize=True)  # clean still for <video poster>
 
 
 def main() -> None:
@@ -234,6 +238,7 @@ def main() -> None:
     grad_n1 = gradient_fill(name1.size)
 
     OUT.mkdir(parents=True, exist_ok=True)
+    MEDIA.mkdir(parents=True, exist_ok=True)
     wav_path = Path("/tmp/intro_audio.wav")
     pcm = (audio * 32767).astype("<i2")
     with wave.open(str(wav_path), "wb") as wv:
@@ -254,7 +259,7 @@ def main() -> None:
                 "-i", str(wav_path),
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p",
                 "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart",
-                str(OUT / "intro.mp4"),
+                str(MEDIA / "intro.mp4"),
             ],
             stdin=subprocess.PIPE,
         )
@@ -363,7 +368,7 @@ def main() -> None:
     if proc:
         proc.stdin.close()
         proc.wait()
-        print("wrote", OUT / "intro.mp4")
+        print("wrote", MEDIA / "intro.mp4")
 
 
 if __name__ == "__main__":

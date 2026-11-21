@@ -27,6 +27,8 @@ from theme import ASSETS, FONT, MODES, PALETTES, esc, gradient, svg_open, write 
 HERE = Path(__file__).resolve().parent
 STATE = HERE / "state.json"
 OUT = ASSETS / "loop"
+# audio and a copy of the roll go to docs/media, served by GitHub Pages as a player
+MEDIA = ASSETS.parent / "docs" / "media"
 
 STEPS = 16
 BPM = 110
@@ -289,8 +291,11 @@ def credits(state: dict) -> str:
 
 def render(state: dict) -> np.ndarray:
     for mode in MODES:
-        write(OUT / f"loop-{mode}.svg", render_roll(state, mode))
+        roll = render_roll(state, mode)
+        write(OUT / f"loop-{mode}.svg", roll)
+        write(MEDIA / f"loop-{mode}.svg", roll)
     samples = synthesize(state)
-    write_wav(samples, OUT / "loop.wav")
+    write_wav(samples, MEDIA / "loop.wav")
+    (MEDIA / "state.json").write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_midi(state, OUT / "loop.mid")
     return samples

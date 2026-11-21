@@ -7,6 +7,14 @@
 </a>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/beat/beat-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/beat/beat-light.svg">
+    <img alt="Now playing: a Chicago house equalizer pulsing at 125 BPM" src="./assets/beat/beat-dark.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
   <sub>↑ Those bars aren't decoration. They're the sound of the loop <em>you</em> can play further down, redrawn every time someone adds a gesture.</sub>
 </p>
 
@@ -43,7 +51,7 @@ and wander through a skyline built from my commits.
 An original score and title sequence, synthesised from scratch in Python. Turn your sound on.
 
 <p align="center">
-  <a href="./assets/intro/intro.mp4"><img alt="Play the intro, sound on" src="./assets/intro/poster.jpg" width="900"></a>
+  <a href="https://bhargavirengarajan21.github.io/bhargavirengarajan21/#trailer"><img alt="Play the intro, sound on" src="./assets/intro/poster.jpg" width="900"></a>
 </p>
 
 <details>
@@ -88,7 +96,7 @@ A workflow redraws the piano roll, synthesises a **WAV** and a **MIDI** file, an
     <td align="center"><a href="https://github.com/bhargavirengarajan21/bhargavirengarajan21/issues/new?title=gesture%3A%20stop&body=Just%20press%20%2A%2ASubmit%20new%20issue%2A%2A.%20A%20workflow%20will%20play%20this%20gesture%20on%20the%20loop%2C%20redraw%20the%20piano%20roll%20and%20the%20header%2C%20then%20close%20this%20issue.%20%F0%9F%8E%B6"><strong>✋</strong><br><sub>rest</sub></a></td>
   </tr>
   <tr>
-    <td align="center" colspan="9"><a href="./assets/loop/loop.wav"><strong>▶ listen</strong></a> · <a href="./assets/loop/loop.mid"><strong>⬇ MIDI</strong></a></td>
+    <td align="center" colspan="9"><a href="https://bhargavirengarajan21.github.io/bhargavirengarajan21/#loop"><strong>▶ listen</strong></a> · <a href="https://github.com/bhargavirengarajan21/bhargavirengarajan21/raw/main/assets/loop/loop.mid"><strong>⬇ MIDI</strong></a></td>
   </tr>
 </table>
 
@@ -127,7 +135,7 @@ spire and twin antennas. It rebuilds every night.
 
 <p align="center">
 <!-- SKYLINE:CREDITS:START -->
-<strong>210 contributions · 2019–2026</strong><br><sub>one tower per month · built from my GitHub history · rebuilt nightly</sub>
+<strong>250 contributions · 2018–2026</strong><br><sub>one tower per month · built from my GitHub history · rebuilt nightly</sub>
 <!-- SKYLINE:CREDITS:END -->
 </p>
 
@@ -187,7 +195,7 @@ first month, my commit-message CLI runs on a model I fine-tuned myself, and my M
 that remembers how a team fixed its last incident.
 
 **Right now:** I'm open to full-time software and AI engineering roles and can start right away.
-If you're building something interesting, [say hi](https://www.linkedin.com/in/bhargavirengarajan21).
+If you're building something interesting, say hi on **[LinkedIn ↗](https://www.linkedin.com/in/bhargavirengarajan21)**.
 
 <details>
   <summary><sub>a few more things</sub></summary>
@@ -269,7 +277,9 @@ I'm always up for talking shop about distributed systems, AI agents, or whatever
   | commit skyline | [`generators/skyline/skyline.py`](generators/skyline/skyline.py) | nightly |
   | toolbox | [`generators/toolbox/toolbox.py`](generators/toolbox/toolbox.py) | on push to its YAML |
   | social buttons | [`generators/social.py`](generators/social.py) | on push to generators |
+  | Chicago house equalizer (SVG + GIF) | [`generators/beat/beat.py`](generators/beat/beat.py) | manually |
   | trailer (MP4 + poster) | [`generators/intro/`](generators/intro) | manually: `python generators/intro/intro.py` |
+  | player page (trailer + loop audio) | [`docs/index.html`](docs/index.html) on GitHub Pages | redeploys on every push |
   | glue | [`generators/playground.py`](generators/playground.py) · [`.github/workflows/`](.github/workflows) | — |
 
   Every SVG comes in a dark and a light variant, picked with `<picture>` and `prefers-color-scheme`.

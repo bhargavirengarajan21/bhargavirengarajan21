@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhargavi Rengarajan · the trailer &amp; the gesture loop</title>
+<meta name="description" content="The cinematic trailer and the visitor-played gesture loop from Bhargavi Rengarajan's GitHub profile.">
+<style>
+  :root{--bg:#14101f;--bg2:#1d1630;--panel:#241b3a;--grid:#33284f;--text:#f4ecff;--muted:#a99cc7;--pink:#ff66cc;--violet:#9d7bff;--cyan:#5ce1e6;--gold:#ffd36e}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:radial-gradient(1200px 700px at 50% -10%,#3a2160 0%,var(--bg) 60%) fixed,var(--bg);color:var(--text);
+       font:16px/1.6 "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--pink)}
+  header{text-align:center;padding:56px 20px 8px}
+  .eyebrow{letter-spacing:.32em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+  h1{margin:.2em 0 .1em;font-size:clamp(34px,6vw,64px);font-weight:800;letter-spacing:.01em;
+     background:linear-gradient(90deg,var(--pink),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+  nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:18px 0 0}
+  nav a{color:var(--text);text-decoration:none;border:1px solid var(--grid);background:var(--bg2);padding:8px 16px;border-radius:999px;font-size:14px}
+  nav a:hover{border-color:var(--pink)}
+  main{max-width:1040px;margin:0 auto;padding:12px 20px 64px}
+  section{margin:44px 0;scroll-margin-top:24px}
+  h2{font-size:22px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 18px;font-size:15px}
+  .screen{position:relative;border-radius:18px;overflow:hidden;background:#000;
+          box-shadow:0 30px 80px -20px rgba(255,102,204,.35),0 0 0 1px var(--grid)}
+  video{display:block;width:100%;height:auto;background:#000}
+  .card{background:var(--bg2);border:1px solid var(--grid);border-radius:18px;padding:22px}
+  .player{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .play{flex:none;width:72px;height:72px;border-radius:50%;border:0;cursor:pointer;
+        background:linear-gradient(135deg,var(--pink),var(--violet));box-shadow:0 10px 30px -8px var(--pink);
+        display:grid;place-items:center;transition:transform .15s}
+  .play:hover{transform:scale(1.06)}
+  .play svg{width:28px;height:28px;fill:#fff}
+  .play .pause,.play.on .start{display:none}
+  .play.on .pause{display:block}
+  .now{flex:1;min-width:220px}
+  .now .label{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+  .now .tune{font-size:24px;letter-spacing:.12em;margin-top:2px;word-break:break-all}
+  canvas{display:block;width:100%;height:120px;margin-top:18px;border-radius:12px;background:var(--bg)}
+  .roll{margin-top:18px;width:100%;border-radius:14px;display:block}
+  .gestures{display:grid;grid-template-columns:repeat(9,1fr);gap:8px;margin-top:18px}
+  .gestures a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 4px;border-radius:12px;text-decoration:none;
+              color:var(--text);background:var(--panel);border:1px solid var(--grid);font-size:24px}
+  .gestures a span{font-size:11px;color:var(--muted)}
+  .gestures a:hover{border-color:var(--pink);transform:translateY(-2px)}
+  .row{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:14px;color:var(--muted)}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:0 20px 40px}
+  @media (max-width:640px){.gestures{grid-template-columns:repeat(5,1fr)}}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">from the GitHub profile of</div>
+  <h1>Bhargavi Rengarajan</h1>
+  <div class="eyebrow">full-stack &amp; AI engineer · chicago</div>
+  <nav>
+    <a href="#trailer">🎬 the trailer</a>
+    <a href="#loop">🖐️ the gesture loop</a>
+    <a href="https://github.com/bhargavirengarajan21">← back to GitHub</a>
+  </nav>
+</header>
+
+<main>
+  <section id="trailer">
+    <h2>🎬 The trailer</h2>
+    <p class="sub">An original score and title sequence, synthesised from scratch in Python. Sound on.</p>
+    <div class="screen">
+      <video id="trailer-video" controls playsinline preload="metadata" poster="media/poster.jpg">
+        <source src="media/intro.mp4" type="video/mp4">
+        Your browser can't play this video. <a href="media/intro.mp4">Download the MP4</a>.
+      </video>
+    </div>
+  </section>
+
+  <section id="loop">
+    <h2>🖐️ The gesture loop</h2>
+    <p class="sub">Sixteen steps of C major pentatonic, played by visitors with hand gestures. Press play, then add your own note.</p>
+    <div class="card">
+      <div class="player">
+        <button class="play" id="loop-play" aria-label="Play the gesture loop">
+          <svg class="start" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+        </button>
+        <div class="now">
+          <div class="label">now playing</div>
+          <div class="tune" id="tune">· · · · · · · · · · · · · · · ·</div>
+        </div>
+      </div>
+      <canvas id="viz" width="1000" height="120" aria-hidden="true"></canvas>
+      <audio id="loop-audio" src="media/loop.wav" preload="auto" loop></audio>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="media/loop-light.svg">
+        <img class="roll" src="media/loop-dark.svg" alt="Piano roll of the current gesture loop">
+      </picture>
+      <div class="gestures" id="gestures"></div>
+      <div class="row">
+        <span>Each gesture opens a pre-filled GitHub issue. Submit it and a workflow plays your note, then this page updates in a couple of minutes.</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Everything here is generated by code in <a href="https://github.com/bhargavirengarajan21/bhargavirengarajan21">bhargavirengarajan21/bhargavirengarajan21</a>.
+</footer>
+
+<script>
+(() => {
+  const REPO = "bhargavirengarajan21/bhargavirengarajan21";
+  const GESTURES = [
+    ["fist", "✊", "C4"], ["point", "☝️", "D4"], ["peace", "✌️", "E4"], ["love-you", "🤟", "G4"],
+    ["open-hand", "🖐️", "A4"], ["ok", "👌", "C5"], ["rock", "🤘", "D5"], ["thumbs-up", "👍", "E5"], ["stop", "✋", "rest"],
+  ];
+  const EMOJI = Object.fromEntries(GESTURES.map(([k, e]) => [k, e]));
+  const body = "Just press **Submit new issue**. A workflow will play this gesture on the loop, redraw the piano roll and the header, then close this issue. 🎶";
+
+  const grid = document.getElementById("gestures");
+  for (const [key, emoji, note] of GESTURES) {
+    const a = document.createElement("a");
+    a.href = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("gesture: " + key)}&body=${encodeURIComponent(body)}`;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.title = `${key} (${note})`;
+    a.innerHTML = `${emoji}<span>${note}</span>`;
+    grid.appendChild(a);
+  }
+
+  fetch("media/state.json", { cache: "no-store" })
+    .then((r) => r.json())
+    .then((s) => {
+      document.getElementById("tune").textContent = s.steps.map((g) => (g ? EMOJI[g] || "·" : "·")).join(" ");
+    })
+    .catch(() => {});
+
+  // ---- audio + visualiser -------------------------------------------------
+  const audio = document.getElementById("loop-audio");
+  const btn = document.getElementById("loop-play");
+  const canvas = document.getElementById("viz");
+  const ctx2d = canvas.getContext("2d");
+  let analyser, data, raf;
+
+  function setupAudio() {
+    if (analyser) return;
+    try {
+      const ac = new (window.AudioContext || window.webkitAudioContext)();
+      const src = ac.createMediaElementSource(audio);
+      analyser = ac.createAnalyser();
+      analyser.fftSize = 256;
+      analyser.smoothingTimeConstant = 0.78;
+      src.connect(analyser);
+      analyser.connect(ac.destination);
+      data = new Uint8Array(analyser.frequencyBinCount);
+      audio._ac = ac;
+    } catch (e) {
+      analyser = null;
+    }
+  }
+
+  function draw() {
+    const w = canvas.width, h = canvas.height;
+    ctx2d.clearRect(0, 0, w, h);
+    const grad = ctx2d.createLinearGradient(0, 0, w, 0);
+    grad.addColorStop(0, "#ff66cc");
+    grad.addColorStop(1, "#9d7bff");
+    ctx2d.fillStyle = grad;
+    const bars = 64;
+    if (analyser) analyser.getByteFrequencyData(data);
+    const bw = w / (bars * 2);
+    for (let i = 0; i < bars * 2; i++) {
+      const idx = i < bars ? bars - 1 - i : i - bars;
+      const v = analyser ? data[Math.min(data.length - 1, Math.floor(idx * 0.9))] / 255 : 0.04;
+      const bh = 3 + v * (h - 10);
+      ctx2d.fillRect(i * bw + 1, (h - bh) / 2, Math.max(2, bw - 3), bh);
+    }
+    raf = requestAnimationFrame(draw);
+  }
+  draw();
+
+  btn.addEventListener("click", async () => {
+    setupAudio();
+    if (audio._ac && audio._ac.state === "suspended") await audio._ac.resume();
+    if (audio.paused) {
+      document.getElementById("trailer-video").pause();
+      await audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+  audio.addEventListener("play", () => btn.classList.add("on"));
+  audio.addEventListener("pause", () => btn.classList.remove("on"));
+  document.getElementById("trailer-video").addEventListener("play", () => audio.pause());
+
+  if (location.hash === "#loop") btn.focus();
+})();
+</script>
+</body>
+</html>
